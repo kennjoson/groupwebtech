@@ -100,14 +100,6 @@
         ><i class="fab fa-instagram"></i
       ></a>
       <!-- Github -->
-      <a
-        data-mdb-ripple-init
-        class="btn text-white btn-floating m-1"
-        style="background-color: #333333;"
-        href="#!"
-        role="button"
-        ><i class="fab fa-github"></i
-      ></a>
     </section>
     <!-- Section: Social media -->
   </div>
