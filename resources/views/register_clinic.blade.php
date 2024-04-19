@@ -31,7 +31,7 @@
         </div> -->
             <div class="card form-box">
                 <div class="card-body">
-                <form id="clinicRegistrationForm" action="{{ route('sendEmail') }}" class="form" method="post" enctype="multipart/form-data">
+                <form id="clinicRegistrationForm" action="{#}" class="form" method="post" enctype="multipart/form-data">
                     @csrf
                     <div class="mb-3">
                         <label for="clinicName" class="form-label">Clinic Name</label>

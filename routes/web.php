@@ -18,6 +18,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/registerClinic', [AuthController::class, 'registerClinic'])->name('registerClinic');
+Route::controller(AuthController::class)->group(function () {
+    Route::get('login', 'login')->name('login');
+    Route::post('login', 'loginAction')->name('login.action');
+  
+});
 
-Route::get('login', [AuthController::class, 'login'])->name('login');
+Route::get('/registerClinic', [AuthController::class, 'registerClinic'])->name('registerClinic');
