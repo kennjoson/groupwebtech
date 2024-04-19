@@ -75,7 +75,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav navbar-sep ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Home</a>
+                        <a class="nav-link" href="{{ route('welcome') }}">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Set Appointment</a>
